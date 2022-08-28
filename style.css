@@ -8,7 +8,7 @@ body {
 
 main {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #e0e8ff;
   background-image: url("./images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
@@ -24,6 +24,7 @@ main {
   background: #fff;
   box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.151826);
   border-radius: 20px;
+  margin: 10px;
 }
 
 .card > img {
