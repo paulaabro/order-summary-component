@@ -101,3 +101,76 @@ a {
   font-size: 15px;
   line-height: 20px;
 }
+
+@media (min-width: 600px) {
+  main {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-size: contain;
+  }
+
+  .card {
+    width: 450px;
+  }
+
+  .card-text {
+    margin: 48px;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 37px;
+    margin: 0;
+  }
+
+  .card-text > p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 17px 0 20px;
+  }
+
+  .plan {
+    height: 98px;
+    padding: 0 24px;
+  }
+
+  .plan p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .plan div {
+    margin-right: 49px;
+  }
+
+  .plan a {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .plan a:hover {
+    color: #766cf1;
+    text-decoration: none;
+  }
+
+  button {
+    height: 50px;
+    background-color: #382ae1;
+
+    margin: 32px 0;
+    transition: all 500ms;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: #766cf1;
+    text-decoration: none;
+  }
+
+  a {
+    transition: all 500ms;
+  }
+
+  a:hover {
+    color: #1f2e55;
+  }
+}
