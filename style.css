@@ -63,6 +63,7 @@ h1 {
 .plan p {
   font-size: 14px;
   line-height: 19px;
+  margin-bottom: 6px;
 }
 .plan div {
   margin-right: 30px;
